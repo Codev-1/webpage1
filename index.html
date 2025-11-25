@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title> SKYWINGS</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">Skywings</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#tour">TOUR</a></li>
+        <li><a href="#package">PACKAGE</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#">BOOK TRIP</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="btn">BOOK TRIP</button>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="header__container">
+        <div class="header__content">
+          <p>ELEVATE YOUR TRAVEL JOURNEY</p>
+          <h1>Experience The Magic Of Flight!</h1>
+          <div class="header__btns">
+            <button class="btn">Book A Trip Now</button>
+            <a href="#">
+              <span><i class="ri-play-circle-fill"></i></span>
+            </a>
+          </div>
+        </div>
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container destination__container" id="about">
+      <h2 class="section__header">Popular Destination</h2>
+      <p class="section__description">
+        Discover the Most Loved Destinations Around the Globe
+      </p>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="assets/destination-1.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Tradition and Futurism</h4>
+              <p>New York City, USA</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.7
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/destination-2.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>The City of Lights</h4>
+              <p>Paris, France</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.5
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/destination-3.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Island of the Gods</h4>
+              <p>Bali, Indonesia</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.8
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container journey__container" id="tour">
+      <h2 class="section__header">Journey To The Sky Made Simple!</h2>
+      <p class="section__description">
+        Effortless Planning for Your Next Adventure
+      </p>
+      <div class="journey__grid">
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-bookmark-3-line"></i></span>
+            <h4>Seamless Booking Process</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-bookmark-3-line"></i></span>
+            <h4>Easy Reservations, One Click Away</h4>
+            <p>
+              From flights and accommodations to activities and transfers,
+              everything you need is available at your fingertips, making travel
+              planning effortless.
+            </p>
+          </div>
+        </div>
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-landscape-fill"></i></span>
+            <h4>Tailored Itineraries</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-landscape-fill"></i></span>
+            <h4>Customized Plans Just for You</h4>
+            <p>
+              Enjoy personalized travel plans designed to match your preferences
+              and interests. Whether you seek adventure or cultural immersion,
+              our tailored itineraries ensure your journey is uniquely yours.
+            </p>
+          </div>
+        </div>
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-map-2-line"></i></span>
+            <h4>Expert Local Insights</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-map-2-line"></i></span>
+            <h4>Insider Tips and Recommendations</h4>
+            <p>
+              We provide curated recommendations for dining, sightseeing, and
+              hidden gems, so you can experience each destination like a local.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container showcase__container" id="package">
+      <div class="showcase__image">
+        <img src="assets/showcase.jpg" alt="showcase" />
+      </div>
+      <div class="showcase__content">
+        <h4>UNLEASH WANDERLUST WITH SKYWINGS</h4>
+        <p>
+          Embark on a journey like no other with Skywings, where your travel
+          dreams come to life. Our mission is to inspire and facilitate your
+          adventures, whether you seek the vibrant energy of bustling
+          cityscapes, the serene beauty of pristine beaches, or the captivating
+          history of ancient landmarks. At Skywings, we provide expertly curated
+          destinations and personalized itineraries, ensuring that every trip is
+          tailored to your unique preferences. Discover hidden gems, immerse
+          yourself in diverse cultures, and create unforgettable memories that
+          will last a lifetime.
+        </p>
+        <p>
+          With Skywings as your ultimate travel companion, exploring the wonders
+          of the world has never been easier. Our insider tips and local
+          insights give you the tools to navigate new places with confidence and
+          excitement. From the moment you start planning to the day you return
+          home, we are dedicated to making your travel experience seamless and
+          enriching.
+        </p>
+        <div class="showcase__btn">
+          <button class="btn">
+            Book A Flight Now
+            <span><i class="ri-arrow-right-line"></i></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+   <!-- ===== PARALLAX BANNER SECTION ===== -->
+<section id="stats-banner" 
+style="
+  padding:90px 10%; 
+  display:flex; 
+  justify-content:center; 
+  gap:35px; 
+  background:url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1400&q=80') center/cover fixed;
+">
+  
+  <div class="stat-card" style="
+    background:rgba(255,255,255,0.2); 
+    backdrop-filter:blur(12px); 
+    padding:35px 50px; 
+    border-radius:22px; 
+    text-align:center; 
+    color:#fff; 
+    border:1.5px solid rgba(255,255,255,0.4); 
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+    transition:.4s;
+  ">
+    <h4 class="count" data-target="10" style="font-size:3rem; font-weight:800; margin-bottom:5px;">0</h4>
+    <p style="font-size:1.1rem; font-weight:500;">Years Experience</p>
+  </div>
+
+  <div class="stat-card" style="
+    background:rgba(255,255,255,0.2); 
+    backdrop-filter:blur(12px); 
+    padding:35px 50px; 
+    border-radius:22px; 
+    text-align:center; 
+    color:#fff; 
+    border:1.5px solid rgba(255,255,255,0.4); 
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+    transition:.4s;
+  ">
+    <h4 class="count" data-target="12000" style="font-size:3rem; font-weight:800; margin-bottom:5px;">0</h4>
+    <p style="font-size:1.1rem; font-weight:500;">Happy Clients</p>
+  </div>
+
+  <div class="stat-card" style="
+    background:rgba(255,255,255,0.2); 
+    backdrop-filter:blur(12px); 
+    padding:35px 50px; 
+    border-radius:22px; 
+    text-align:center; 
+    color:#fff; 
+    border:1.5px solid rgba(255,255,255,0.4); 
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+    transition:.4s;
+  ">
+    <h4 class="count" data-target="4.8" style="font-size:3rem; font-weight:800; margin-bottom:5px;">0</h4>
+    <p style="font-size:1.1rem; font-weight:500;">Overall Ratings</p>
+  </div>
+
+</section>
+
+<script>
+  // Counter animation script
+  function startCount() {
+    document.querySelectorAll(".count").forEach(counter => {
+      let target = +counter.getAttribute("data-target");
+      let current = 0;
+      let increment = target / 200;
+
+      function updateCounter() {
+        current += increment;
+        if (current < target) {
+          counter.innerText = Math.floor(current);
+          requestAnimationFrame(updateCounter);
+        } else {
+          counter.innerText = target;
+        }
+      }
+      updateCounter();
+    });
+  }
+
+  // Trigger counter when visible
+  window.addEventListener("scroll", () => {
+    let banner = document.getElementById("stats-banner");
+    let position = banner.getBoundingClientRect().top;
+    if (position < window.innerHeight - 100) {
+      startCount();
+    }
+  });
+
+  // Hover bounce effect
+  document.querySelectorAll(".stat-card").forEach(card => {
+    card.addEventListener("mouseover", () => {
+      card.style.transform = "translateY(-10px) scale(1.05)";
+    });
+    card.addEventListener("mouseout", () => {
+      card.style.transform = "translateY(0) scale(1)";
+    });
+  });
+</script>
+
+
+   <!-- ===== DISCOVER SECTION ===== -->
+<!-- ===== DISCOVER SECTION (White + Blue Theme) ===== -->
+
+<section id="discover" style="padding:80px 8%; background:#ffffff; display:flex; align-items:center; gap:50px; flex-wrap:wrap;">
+  
+  <!-- LEFT IMAGE BOX -->
+  <div style="flex:1; min-width:320px; background:#eaf3ff; padding:25px; border-radius:30px; border:3px dashed #8abaff; display:grid; grid-template-columns:1fr 1fr; gap:15px;">
+    <img src="assets/destination-1.jpg" style="width:100%; border-radius:25px;" />
+    <img src="assets/destination-2.jpg" style="width:100%; border-radius:25px;" />
+    <img src="assets/destination-3.jpg" style="width:100%; border-radius:25px;" />
+    <img src="assets/destination-1.jpg" style="width:100%; border-radius:25px;" />
+  </div>
+
+  <!-- RIGHT CONTENT -->
+  <div style="flex:1; min-width:350px;">
+    <h2 style="font-size:2.4rem; font-weight:800; color:#0a0a0a; margin-bottom:15px;">
+      <span style="color:#007bff;">Benefits</span> From Our Aerial Travel
+    </h2>
+
+    <div style="display:flex; align-items:flex-start; gap:18px; margin-bottom:25px; opacity:0; transform:translateX(50px);" class="d-item">
+      <span style="background:#e8f1ff; padding:14px; border-radius:50%; font-size:1.8rem; color:#007bff;">
+        <i class="ri-camera-lens-line"></i>
+      </span>
+      <div>
+        <h4 style="font-size:1.25rem; font-weight:700; color:#0a0a0a;">Aerial Cityscapes</h4>
+        <p style="color:#444; font-size:0.95rem;">Witness stunning skyline views and breathtaking urban beauty from above.</p>
+      </div>
+    </div>
+
+    <div style="display:flex; align-items:flex-start; gap:18px; margin-bottom:25px; opacity:0; transform:translateX(50px);" class="d-item">
+      <span style="background:#e8f1ff; padding:14px; border-radius:50%; font-size:1.8rem; color:#007bff;">
+        <i class="ri-ship-line"></i>
+      </span>
+      <div>
+        <h4 style="font-size:1.25rem; font-weight:700; color:#0a0a0a;">Coastal Wonders</h4>
+        <p style="color:#444; font-size:0.95rem;">Explore turquoise waters and golden coastlines like never before.</p>
+      </div>
+    </div>
+
+    <div style="display:flex; align-items:flex-start; gap:18px; opacity:0; transform:translateX(50px);" class="d-item">
+      <span style="background:#e8f1ff; padding:14px; border-radius:50%; font-size:1.8rem; color:#007bff;">
+        <i class="ri-landscape-line"></i>
+      </span>
+      <div>
+        <h4 style="font-size:1.25rem; font-weight:700; color:#0a0a0a;">Historic Landmarks</h4>
+        <p style="color:#444; font-size:0.95rem;">Experience iconic heritage spots from amazing aerial viewpoints.</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- ===== GSAP & SCROLL ANIMATION ===== -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<script>
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.to(".d-item", {
+  scrollTrigger: {
+    trigger: "#discover",
+    start: "top 80%",
+  },
+  opacity: 1,
+  x: 0,
+  duration: 1.2,
+  stagger: 0.25,
+  ease: "power3.out",
+});
+
+// hover bounce effect
+document.querySelectorAll(".d-item").forEach(item => {
+  item.addEventListener("mouseover", () => {
+    gsap.to(item, { scale: 1.05, duration: 0.4, ease: "power2.out" });
+  });
+  item.addEventListener("mouseout", () => {
+    gsap.to(item, { scale: 1, duration: 0.4, ease: "power2.out" });
+  });
+});
+</script>
+
+
+<!-- ===== GSAP + ANIMATION SCRIPT ===== -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  gsap.to(".discover__card", {
+    scrollTrigger: {
+      trigger: "#discover",
+      start: "top 80%",
+    },
+    opacity: 1,
+    y: 0,
+    duration: 1.2,
+    stagger: 0.3,
+    ease: "power3.out",
+  });
+
+  // Hover animation
+  document.querySelectorAll(".discover__card").forEach(card => {
+    card.addEventListener("mouseover", () => {
+      gsap.to(card, { scale: 1.05, duration: 0.4, ease: "power2.out" });
+    });
+    card.addEventListener("mouseout", () => {
+      gsap.to(card, { scale: 1, duration: 0.4, ease: "power2.out" });
+    });
+  });
+</script>
+
+
+    <section class="section__container client__container">
+      <h2 class="section__header">Loved By Over Thousand Travelers</h2>
+      <p class="section__description">
+        Discover the stories of wanderlust and cherished memories through the
+        eyes of our valued clients.
+      </p>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  Skywings has completely transformed my travel experience. From
+                  finding hidden gems in bustling cities to discovering serene
+                  retreats off the beaten path, every detail was thoughtfully
+                  arranged. I can't recommend Skywings enough for anyone looking
+                  to elevate their travel experience!
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="assets/client-1.jpg" alt="client" />
+                <div>
+                  <h4>John Adams</h4>
+                  <h5>Travel Blogger</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  My recent adventure with Skywings was nothing short of
+                  spectacular. The personalized itineraries and recommendations
+                  they provided led me to extraordinary locations that I would
+                  never have found on my own. I'm already planning my next
+                  adventure with them!
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="assets/client-2.jpg" alt="client" />
+                <div>
+                  <h4>Emily Thompson</h4>
+                  <h5>Adventure Enthusiast</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  Skywings offered a transformative experience for my research
+                  into historical landmarks. The unique aerial perspectives and
+                  provided a new level of appreciation and insight into the
+                  sites I studied. I highly recommend their services to fellow
+                  historians and cultural enthusiasts.
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="assets/client-3.jpg" alt="client" />
+                <div>
+                  <h4>Sarah Lee</h4>
+                  <h5>Cultural Historian</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  Finding a balance between work and travel can be challenging,
+                  but Skywings made it effortless. Their efficient planning and
+                  excellent recommendations helped me maximize my downtime and
+                  enjoy every moment of my trip. I look forward to working with
+                  them again on future travels.
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="assets/client-4.jpg" alt="client" />
+                <div>
+                  <h4>David Patel</h4>
+                  <h5>Business Executive</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Skywings</a>
+          </div>
+          <p>
+            Explore the world with ease and excitement through our comprehensive
+            travel platform. Your journey begins here, where seamless planning
+            meets unforgettable experiences.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-youtube-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Flights</a></li>
+            <li><a href="#">Hotels</a></li>
+            <li><a href="#">Cruise</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +91 9876543210
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-record-mail-line"></i></span> info@skywings
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> New Delhi, India
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Subscribe</h4>
+          <form action="/">
+            <input type="text" placeholder="Enter your email" />
+            <button class="btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 Skywings. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
